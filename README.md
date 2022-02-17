@@ -22,13 +22,17 @@ Object detectors composed of a backbone in feature extraction and a head (the ri
 
 # Bag of Specials (BoS) for backbone
 1.Mish activation,
+
 2.Cross-stage partial connections (CSP), and
+
 3.Multi-input weighted residual connections (MiWRC)
 
 
 # Bag of Freebies (BoF) for backbone
 1.CutMix and Mosaic data augmentation,
+
 2.DropBlock regularization, and
+
 3.Class label smoothing
 
 
