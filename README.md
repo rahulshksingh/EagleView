@@ -47,8 +47,10 @@ Overall performance for model is good it is coming up with MAP(78%) but due to l
 Model is doing good on static images but on tiny/complex objects it's doing false prediction.
 
 # Recommendations
-1.To get a best detection model, we need good quality of 2000 instances for each class.
+1.To get a best detection model, we need good quality of 2000 instances for each class. 
+
 2.To reduce false positive prediction we need to analysis of results & also need to add background images.
+
 3.Also can tune different hyperparameters(data augmentation,activation function,loss,filters etc.)
 
 # Conclusion
