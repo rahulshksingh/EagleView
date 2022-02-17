@@ -6,6 +6,7 @@ converted coco data format(.json) into darknet format(.txt) & for this conversio
 YOLO stands for You Only Look Once. It’s an object detection model used in deep learning use cases, of which there are mainly 2 main families:
 
 1.Two-Stage Detectors
+
 2.One-Stage Detectors
 
 YOLO belongs to the family of One-Stage Detectors. In a sliding window + classification approach, you look at the image and classify it for every window.Compared to YOLOv3, YOLOv4 has improved again in terms of accuracy (average precision) and speed (FPS), the two metrics we generally use to qualify an object detection algorithm as shown in the below graph: image And the best part of the YOLOv4 model is that model training can be done on a single GPU. Given below is the architecture of the model:
