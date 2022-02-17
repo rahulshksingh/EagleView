@@ -1,5 +1,7 @@
 # EagleView DL/ML Assignment
 In this project we will train the YOLOv4 network on 2 classes 'Car' , 'Person' with the given image dataset and run the detection on a real video caught on a moving traffic camera.
+# Data Preprocessing
+converted coco data format(.json) into darknet format(.txt) & for this conversion, i have used convert2Yolo.py,
 # Model
 YOLO stands for You Only Look Once. It’s an object detection model used in deep learning use cases, of which there are mainly 2 main families:
 
@@ -30,8 +32,8 @@ Object detectors composed of a backbone in feature extraction and a head (the ri
 3.Class label smoothing
 
 
-# dataset & Framework
-
+# Framework
+Darknet yolov4:
 https://github.com/AlexeyAB/darknet
 
 # Primary Analysis
@@ -50,3 +52,9 @@ Even on limited resouces model is working well. For any subject to improvement o
 
 For more one can look into the YOLOv4 model paper.The link is given below:
 https://arxiv.org/pdf/2004.10934.pdf
+
+# important links
+input-https://drive.google.com/file/d/19aqBZHfi0XbBf1yi-rC8qjF_5MT61uK5/view?usp=sharing
+output-https://drive.google.com/file/d/14LYw0YFht87E5eUzsx-1sm9gnjbQp_4k/view?usp=sharing
+Model Weight-https://drive.google.com/drive/folders/1PZV8p-UspGUoykdD2UvC787VEzLtHpds?usp=sharing
+dataset-https://drive.google.com/file/d/1X6Qj5osQw_ir3CuGZ_96eVIbSMt6f9fH/view?usp=sharing
