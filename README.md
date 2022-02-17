@@ -30,6 +30,23 @@ Object detectors composed of a backbone in feature extraction and a head (the ri
 3.Class label smoothing
 
 
+# dataset & Framework
+
+https://github.com/AlexeyAB/darknet
+
+# Primary Analysis
+Overall performance for model is good it is coming up with MAP(78%) but due to limited data size & limited training resources(google colab) i am able to trained for 3500 steps.
+
+# False positive
+Model is doing good on static images but on tiny/complex objects it's doing false prediction.
+
+# Recommendations
+1.To get a best detection model, we need good quality of 2000 instances for each class.
+2.To reduce false positive prediction we need to analysis of results & also need to add background images.
+3.Also can tune different hyperparameters(data augmentation,activation function,loss,filters etc.)
+
+# Conclusion
+Even on limited resouces model is working well. For any subject to improvement on detection capacity, we can do further analysis of model & testing of output.
 
 For more one can look into the YOLOv4 model paper.The link is given below:
 https://arxiv.org/pdf/2004.10934.pdf
